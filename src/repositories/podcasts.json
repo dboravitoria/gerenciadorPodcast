@@ -10,5 +10,17 @@
             "episode": "RUBENS BARRICHELLO - Flow #339",
             "videoId": "4KDGTdiOV4I",
             "categories": ["esporte", "corrida"]
+        },
+        {
+            "podcastName": "flow",
+            "episode": "DEVI - Flow #379",
+            "videoId": "FJHG993JFfsdf",
+            "categories": ["esporte", "programação"]
+        },
+        {
+            "podcastName": "inteligencia",
+            "episode": "devyn",
+            "videoId": "sdfsj35dk",
+            "categories": ["programação", "humor"]
         }
 ]
