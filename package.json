@@ -1,0 +1,25 @@
+{
+  "name": "gerenciandopodcasts",
+  "version": "1.0.0",
+  "description": "Podcasts feitos em vídeo ### Descrição  Um app ao estilo netflix, onde podemos centralizar diferentes episódio separados por categoria ### Features - Listar epsódios de podcasts em sessões de categorias     --[saúde, humor, fitness, mentalidade] - Filtrar por nome de Podcast",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "tsx --env-file=.env src/server.ts",
+    "watch": "tsx --watch src/server.ts",
+    "dist": "tsup src",
+    "initial": "npm run dist && node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^24.1.0",
+    "tsup": "^8.5.0",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3"
+  }
+}
